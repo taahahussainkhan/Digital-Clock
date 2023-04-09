@@ -1,0 +1,67 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background: url("https://images.hdqwalls.com/download/earth-with-rings-8k-c0-1366x768.jpg");
+}
+h2{
+    text-transform: uppercase;
+    color: beige;
+    letter-spacing: 9px;
+    font-size: 25px;
+}
+.clock{
+    color: azure;
+    display: flex;
+
+}
+.clock div{
+    margin: 5px;
+    position: relative;
+
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(24, 57, 107);
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    opacity: 65%;
+}
+.clock .text{
+    height: 30px;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    background-color: darkblue;
+    opacity: 70%;
+
+}
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: black;
+}
+div .minutes{
+    opacity: 90%;
+
+}
+div .hour{
+    opacity: 90%;
+}
+div .seconds{
+    opacity: 90%;
+
+}
